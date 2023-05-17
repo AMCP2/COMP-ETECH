@@ -25,23 +25,23 @@ z-index: 2;
 
 .active{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:larger;
+    font-size:vw;
 }
 
 .contact{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size: vw;
 }
 
 
 .gallery{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size:vw;
 }
 
 .ann{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
+    font-size: vw;
 }
 
 .navbar-brand {
@@ -73,8 +73,10 @@ background-image:url("images/nackground.png");
 display: inline-block;
 }
 
-.header1{
+.aboutheader{
     display:inline-block;
+    margin: auto;
+
 }
 
 .pabout{
@@ -100,13 +102,31 @@ margin:1.5cm;
 
 .afterlocal{
 font-size:0.75cm;
-margin-left:2cm;
+margin-left:5cm;
 }
 
 .oldcafe{
     margin-left:15cm;
 
+}
 
+.contactu{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:0.5cm;
+}
+.number{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5cm;
+}
+
+.email{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5cm;
+}
+
+.facebook{
+font-family:'Courier New', Courier, monospace;
+font-size:0.5;
 }
 
 .located{
@@ -139,14 +159,24 @@ font-size: 0.5cm;
     float:left;
 }
 
+
 .announce{
     Font-size:2cm;
     align-items:center;
     font-style: italic; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.header2{
-    display: inline-block;
-    margin:auto;
-    
+
+.page3{
+    background-color: rgb(255, 217, 223);
+    text-align: center;
+    margin: auto;
+}
+
+.picturegallery{
+    justify-content: center;
+    align-items: center;
+    margin-left:28%;
+    margin-bottom:2cm;
+    margin-top:2cm;
 }
