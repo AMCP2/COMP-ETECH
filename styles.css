@@ -74,15 +74,25 @@ display: inline-block;
 }
 
 .aboutheader{
-    display:inline-block;
-    margin: auto;
-
+    display:flex;
+    align-items:left;
+    margin-right:2.5cm;
+    justify-content: center;
+    float:center;
 }
 
 .pabout{
-font-size:1.15vw;
-margin-left: 0.75cm;
-margin-right:0.75cm;
+font-size:1.09vw;
+margin-left: 4vw;
+margin-right:4vw;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.old{
+    height: auto;
+    width: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
 }
 
 .when{
@@ -91,8 +101,8 @@ font-size:4vw;
 font-style: italic;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin:1.5cm;
-
 }
+
 .local{
     font-size:4vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -101,12 +111,17 @@ margin:1.5cm;
 }
 
 .afterlocal{
-font-size:0.5vw;
-margin-left:5cm;
+font-size:2vw;
+margin-left:5vw;
+margin-right:5vw;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .oldcafe{
     margin-left:15cm;
+    float:inline-end; 
+    display:center;
 
 }
 
