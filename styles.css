@@ -195,3 +195,9 @@ font-size: 1.5vw;
     margin-bottom:2cm;
     margin-top:2cm;
 }
+
+.Povt {
+    background-image:url("images/nackground.png");
+    text-align: center;
+    margin: auto;
+}
